@@ -1,0 +1,259 @@
+#moodfoodtitle {
+    text-align: center;
+    font-size: 65px;
+    padding: 20px;
+    font-family: 'Unica One', cursive;
+    color: black;
+}
+
+div#BGimg {
+    height: 820px;
+    width: 100%;
+    background-image: url("out.jpg");
+    z-index: -999;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 19%;
+}
+
+img.burgericon {
+    position: relative;
+    right: 9px;
+    bottom: 2px;
+}
+
+.container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+}
+
+hr {
+    background-color: gray;
+    width: 90%;
+    height: 1px;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    width: 50%;
+    height: 54px;
+    line-height: 1.42857143;
+    padding-left: 35px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.9125em;
+    letter-spacing: 0.075em;
+    border: 1px solid #d6d6d6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    border: solid black 1px;
+}
+
+input .food-ingredient-in {
+    margin: 0 30px;
+    font-family: 'Unica One', cursive;
+    font-weight: 500;
+}
+
+#food-button {
+    background: #333;
+    color: #fff;
+    line-height: 1.33;
+    font-size: 1.0625em;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid #333;
+    letter-spacing: 0.075em;
+    width: 100%;
+    height: 54px;
+    cursor: pointer;
+}
+
+#food-button:hover {
+    background: #222;
+    transition: all 0.4s ease-out
+}
+
+input .food-ingredient-in,
+#food-button {
+    display: inline-block;
+}
+
+#food-button {
+    width: 200px;
+    position: relative;
+}
+
+.recipeResultsCSS {
+    color: gray;
+    font-family: 'Amiko', sans-serif;
+    display: inline-block;
+    padding: 5.7%;
+}
+
+.recipeUrlCSS {
+    display: none;
+}
+
+.recipeImg:hover {
+    opacity: 0.5;
+}
+
+#footer {
+    padding-top: 100px;
+    min-height: 40vh;
+    font-family: 'Unica One', cursive;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.social {
+    display: inline-block;
+}
+
+.fa-flickr,
+.fa-github,
+.fa-reddit,
+.fa-linkedin {
+    font-size: 25px !important;
+    color: black;
+}
+
+.fa-flickr:hover,
+.fa-github:hover,
+.fa-reddit:hover,
+.fa-linkedin:hover {
+    font-size: 25px !important;
+    color: gray;
+}
+
+hr {
+    background-color: gray;
+    width: 90%;
+    height: 1px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutLink:hover {
+    text-decoration: none;
+}
+
+.faqLink:hover {
+    text-decoration: none;
+}
+
+a.faqLink {
+    position: relative;
+    right: 30px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    /*text-decoration: none;*/
+    color: gray;
+}
+
+
+/* search map inputs*/
+
+.actions {
+    z-index: 2;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+.actions label {
+    display: block;
+    margin: 2px 0 5px 10px;
+    text-align: center;
+    color: white;
+}
+
+.actions input,
+.actions select {
+    width: 85%;
+}
+
+.button {
+    color: gray;
+    font: normal 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    line-height: 1;
+    margin-bottom: 5px;
+    padding: 6px 0 7px 0;
+    text-align: center;
+    width: 355px;
+    cursor: pointer;
+}
+
+#button1,
+#button2 {
+    border: 2px solid #333;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    position: relative;
+    left: 83px;
+}
+
+#button1:hover {
+    background: #222;
+    transition: all 0.4s ease-out
+}
+
+#button2:hover {
+    background: #222;
+    transition: all 0.4s ease-out
+}
+
+#textColor:hover {
+    color: white;
+}
+
+#gmap_canvas {
+    height: 500px;
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    #moodfoodtitle {
+        font-size: 50px;
+    }
+}
